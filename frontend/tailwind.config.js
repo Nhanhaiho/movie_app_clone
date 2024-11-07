@@ -1,10 +1,9 @@
-// tailwind.config.js
-module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}", // This line ensures Tailwind scans all your React components
-  ],
+import tailwindScrollbarHide from "tailwind-scrollbar-hide";
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [tailwindScrollbarHide],
 };
