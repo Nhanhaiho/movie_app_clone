@@ -21,9 +21,9 @@ const AuthScreen = () => {
 
           {/* phan nhap email get start */}
           <div className='flex flex-col items-center justify-center text-center py-40 text-white max-w-6xl mx-auto'>
-              <h1 className='text-4xl md:text-6xl font-bold mb-4'>Unlimited movies,Tv shows, and more </h1>
-              <p className='text-lg mb-4'>Watch anywhere. Cancel anytime</p>
-              <p className='mb-4'>Ready to watch ? Enter your email to create or start your memebership</p>
+              <h1 className='text-4xl md:text-6xl font-bold mb-4'>Vô vàn film, Tv Show và hàng ngàn chương trình khác .... </h1>
+              <p className='text-lg mb-4'>Xem bất cứ đâu</p>
+              <p className='mb-4'>Sẵn sàng để xem? Hãy nhập email và bắt đầu hội viên nào</p>
               <form className='flex flex-col md:flex-row gap-4 w-1/2' onSubmit={handleFormSubmit}>
                   <input
                       type='email'
@@ -33,7 +33,7 @@ const AuthScreen = () => {
                       onChange={(e)=>setEmail(e.target.value)}
                   />
                  <button className='bg-red-600 text-xl lg:text-2xl px-2 lg:px-6 py-1 md:py-2 rounded flex justify-center items-center'>
-						Get Started
+						Bắt Đầu
 						<ChevronRight className='size-8 md:size-10' />
 					</button>
               </form>
@@ -50,7 +50,7 @@ const AuthScreen = () => {
             <div className='flex-1 text-center md:text-left mb-6 md:mb-0'>
             <h2 className='text-4xl md:text-5xl font-extrabold mb-4'>Thưởng thức các bộ phim</h2>
             <p className='text-lg md:text-xl'>
-                Watch on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more
+               Xem trên Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, ...
             </p>
             </div>
 
@@ -154,7 +154,7 @@ const AuthScreen = () => {
 					</div>
 					{/* right */}
 					<div className='flex-1 text-center md:text-left'>
-						<h2 className='text-4xl md:text-5xl font-extrabold mb-4'>Create profiles for kids</h2>
+						<h2 className='text-4xl md:text-5xl font-extrabold mb-4'>Tạo profiles dành cho trẻ em</h2>
 						<p className='text-lg md:text-xl'>
 							Send kids on adventures with their favorite characters in a space made just for them—free
 							with your membership.
